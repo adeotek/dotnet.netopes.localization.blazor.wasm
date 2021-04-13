@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <TargetFramework>net5.0</TargetFramework>
+        <OutputType>Library</OutputType>
+        <PackageId>Netopes.Localization.Blazor.Wasm</PackageId>
+        <PackageTags>netopes,localization,blazor,wasm</PackageTags>
+        <Title>NETopes Localization Blazor Web Assembly</Title>
+        <Description>NETopes ASP.NET Core framework Blazor Web Assembly Localization package</Description>
+        <Product>NETopes Localization Blazor WASM</Product>
+        <Company>AdeoTEK Software SRL</Company>
+        <Authors>George Benjamin-Schonberger</Authors>
+        <Copyright>Copyright © AdeoTEK Software SRL 2021</Copyright>
+        <AssemblyVersion>1.0.0.1</AssemblyVersion>
+        <FileVersion>1.0.0.1</FileVersion>
+        <Version>1.0.0</Version>
+        <PackageProjectUrl>https://github.com/adeotek/dotnet.netopes.localization.blazor.wasm/</PackageProjectUrl>
+        <PackageLicense>https://github.com/adeotek/dotnet.netopes.localization.blazor.wasm/blob/main/README.md</PackageLicense>
+        <RepositoryUrl>https://github.com/adeotek/dotnet.netopes.localization.blazor.wasm/</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+        <PackageIcon>PackageIcon.png</PackageIcon>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageVersion>1.0.0</PackageVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Localization" Version="5.0.5" />
+        <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
+        <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All">
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="../LICENSE">
+            <Pack>True</Pack>
+            <PackagePath>/</PackagePath>
+        </None>
+        <None Include="../assets/PackageIcon.png">
+            <Pack>True</Pack>
+            <PackagePath>/</PackagePath>
+        </None>
+    </ItemGroup>
+
+</Project>
